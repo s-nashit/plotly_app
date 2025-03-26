@@ -5,6 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 app = dash.Dash(__name__)
+server = app.server
 
 data = {
     'area' : [100,200,300,400,500,600,700,750,800,900,1000],
