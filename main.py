@@ -45,4 +45,4 @@ def update_graph(graph_type):
     return fig
 
 
-app.run(debug=True, port:5050)
+app.run(debug=True)
